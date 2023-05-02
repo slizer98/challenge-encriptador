@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header class="header">
+        <picture class="header__picture">
+            <img src="img/Logo.png" alt="Logo Alura Latam" class="header__img">
+        </picture>
+        <div class="dark">
+            <button class="dark__mode fa-solid fa-sun"></button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="container">
+
+            <section class="message">
+                <textarea class="message__text" placeholder="Ingrese el texto aqui"></textarea>
+            </section>
+            <section class="buttons">
+                <p class="buttons__validation">Solo letras minúsculas y sin acentos</p>
+                <div class="butons__container">
+                    <button class="button__encrypt">Encriptar</button>
+                    <button class="button__decrypt">Desencriptar</button>
+                </div>
+            </section>
+        </section>
+        <section class="result">
+            <picture class="result__img">
+                <img src="img/Muñeco.png" alt="personaje con una lupa" class="result__picture">
+            </picture>
+            <div class="result__text" ></div>
+            <p class="result__paragraph"></p>
+            <button class="result__copy">Copiar</button>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/dd7acf8f15.js" crossorigin="anonymous"></script>
+</body>
+</html>
